@@ -1,3 +1,4 @@
+// Get all products
 export const productsQuery = `
   *[_type == "product"] | order(_createdAt desc) {
     _id,
@@ -12,6 +13,7 @@ export const productsQuery = `
   }
 `;
 
+// Get single product by slug
 export const productBySlugQuery = `
   *[_type == "product" && slug.current == $slug][0] {
     _id,
