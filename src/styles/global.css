@@ -1,4 +1,23 @@
 :root {
+    --bg: #fff7fb;
+    /* soft pastel pink background */
+    --surface: #ffffff;
+    --soft: #f0f8ff;
+    /* very light pastel blue */
+
+    --primary: #f4a9c7;
+    /* pastel pink */
+    --primary-dark: #e78fb3;
+
+    --text: #3a3a3a;
+    --muted: #7a6f73;
+
+    --border: #f1d4e0;
+    /* light pink border */
+    --shadow: 0 10px 30px rgba(200, 150, 170, 0.12);
+}
+
+/*:root {
     --bg: #fdf9f6;
     --surface: #ffffff;
     --soft: #f7efe8;
@@ -48,7 +67,7 @@ img {
     margin: 0 auto;
 }
 
-/* NAVBAR */
+
 .navbar {
     background: rgba(255, 255, 255, 0.95);
     border-bottom: 1px solid var(--border);
@@ -101,7 +120,7 @@ img {
     background: var(--primary-dark);
 }
 
-/* HERO */
+
 .hero {
     padding: 5rem 0 4rem;
 }
@@ -137,7 +156,7 @@ img {
     box-shadow: var(--shadow);
 }
 
-/* PAGE STYLES */
+
 .page-section {
     padding: 4rem 0;
 }
@@ -153,7 +172,7 @@ img {
     margin-bottom: 2rem;
 }
 
-/* CARDS / SHOP */
+
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -192,7 +211,7 @@ img {
     font-weight: 700;
 }
 
-/* PRODUCT DETAIL */
+
 .product-detail {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -213,7 +232,7 @@ img {
     padding: 2rem;
 }
 
-/* CONTACT FORM */
+
 .contact-form {
     max-width: 720px;
     display: grid;
@@ -238,7 +257,7 @@ img {
     min-height: 150px;
 }
 
-/* BUTTONS */
+
 .btn,
 .btn-primary {
     background: var(--primary);
@@ -259,7 +278,7 @@ img {
     color: var(--primary);
 }
 
-/* FOOTER */
+
 .footer {
     background: #2f2522;
     color: #fff;
@@ -268,7 +287,7 @@ img {
     text-align: center;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 900px) {
 
     .hero-grid,
@@ -649,7 +668,8 @@ img {
     }
 }
 
-
+*/
+/*------------------------------------------------------------*/
 /*:root {
     --bg: #fdf9f6;
     --surface: #ffffff;
