@@ -1,13 +1,27 @@
 :root {
-    --bg: #42c0d1;
+    --bg: #f8fbff;
+    /* very soft blue-white background */
     --surface: #ffffff;
-    --soft: #2bc0e1;
-    --primary: #f4a9c7;
-    --primary-dark: #e78fb3;
-    --text: #3a3a3a;
-    --muted: #7a6f73;
-    --border: #f1d4e0;
-    --shadow: 0 10px 30px rgba(200, 150, 170, 0.12);
+    /* clean white cards */
+    --soft: #eef6fb;
+    /* light pastel blue sections */
+
+    --primary: #e8a9c4;
+    /* soft dusty pink */
+    --primary-dark: #d98fb0;
+    /* slightly deeper pink */
+
+    --accent: #a8d8ea;
+    /* pastel blue accent (optional use) */
+
+    --text: #3c3438;
+    /* warm dark grey */
+    --muted: #8a7f85;
+    /* soft muted text */
+
+    --border: #f0e4ea;
+    /* light pink border */
+    --shadow: 0 10px 30px rgba(180, 150, 165, 0.12);
 }
 
 * {
