@@ -1,27 +1,28 @@
 :root {
-    --bg: #f8fbff;
-    /* very soft blue-white background */
+    --bg: #f5f1ec;
+    /* warm cream background */
     --surface: #ffffff;
-    /* clean white cards */
-    --soft: #eef6fb;
-    /* light pastel blue sections */
+    /* cards */
 
-    --primary: #e8a9c4;
-    /* soft dusty pink */
-    --primary-dark: #d98fb0;
-    /* slightly deeper pink */
+    --soft: #e8efe9;
+    /* very light sage section */
 
-    --accent: #a8d8ea;
-    /* pastel blue accent (optional use) */
+    --primary: #6f8f7a;
+    /* sage green (main brand color) */
+    --primary-dark: #5e7a68;
+    /* deeper sage */
 
-    --text: #3c3438;
-    /* warm dark grey */
-    --muted: #8a7f85;
-    /* soft muted text */
+    --accent: #d9cfc3;
+    /* warm beige accent */
 
-    --border: #f0e4ea;
-    /* light pink border */
-    --shadow: 0 10px 30px rgba(180, 150, 165, 0.12);
+    --text: #2f2f2f;
+    /* dark neutral */
+    --muted: #7a7a7a;
+    /* soft grey text */
+
+    --border: #e6ddd3;
+    /* warm light border */
+    --shadow: 0 10px 30px rgba(60, 50, 40, 0.08);
 }
 
 * {
